@@ -93,7 +93,7 @@
         <div class="col-lg-12 ml-auto">
           <p class="lead">Je m'appelle Clément Vettard, j'ai 20 ans et je suis actuellement en deuxième année de BTS SIO au lycée Ozenne à Toulouse.</p>
           <p class="lead">J'ai toujours été intéréssé par l'informatique mais c'est au cours de ma formation que j'ai découvert une réelle passion pour la programmation.</p>
-          <p class="lead">Je souhaite poursuivre mes études dans une école d'ingénieur pour appronfondir mes connaissances en développement bien que pour le moment je n'ai pas encore de préférence entre le web, le logiciel et le mobile.</p>
+          <p class="lead">Je souhaite poursuivre mes études dans une école d'ingénieur pour appronfondir mes connaissances en développement et en gestion de projet, bien que pour le moment je n'ai pas de préférence entre le web, le logiciel et le mobile.</p>
         </div>
       </div>
 
@@ -154,7 +154,7 @@
   <section class="page-section bg-blue text-white portfolio" id="Projets">
     <div class="container">
 
-      <!-- Portfolio Section Heading -->
+      <!-- ¨Projets Section Heading -->
       <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Projets</h2>
 
       <!-- Icon Divider -->
@@ -165,10 +165,23 @@
         </div>
         <div class="divider-custom-line"></div>
       </div>
+
       <div class="row">
         <div class="col-lg-12 ml-auto">
           <p class="lead">C'est dans cette section que je publierai les projets sur lesquels j'ai travaillé. De nouveaux projets apparaitront au fil du temps.</p>
         </div>
+      </div>
+
+      <div class="row">
+        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#projetFormaPPE">
+          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+            <div class="portfolio-item-caption-content text-center text-white">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="img/portfolio/bg_M2L.png" alt="">
+        </div>
+      </div>
       </div>
 
     </div>
@@ -248,16 +261,77 @@
     </a>
   </div>
 
+  <!-- Portfolio Modal 1 -->
+  <div class="portfolio-modal modal fade" id="projetFormaPPE" tabindex="-1" role="dialog" aria-labelledby="portfolioprojetFormaPPE" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Projet Maison des Ligues</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/bg_M2L.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <div>
+                  <h2>
+                    <span class="badge badge-primary">HTML</span>
+                    <span class="badge badge-secondary">CSS</span>
+                    <span class="badge badge-danger">PHP</span>
+                    <span class="badge badge-success">SQL</span>
+                  </h2>
+                  <ul class="list-group">
+                    <ol class="list-group-item list-group-item-action list-group-item-info">Conception, implémentation et alimentation d'une base de données</ol>
+                    <ol class="list-group-item list-group-item-action list-group-item-info">Développement d'une application en PHP basé sur le modèle MVC</ol>
+                  </ul>
+                </div>
+                <br>
+                <div class="mb-5 text-left">
+                  <p >Ce projet est basé sur un contexte fictif provenant du <b>BTS SIO</b> et a été réalisé
+                    en collaboration avec Nicolas VITE.</p>
+                    <p>Il était question de réaliser une <b>application</b> permettant aux adhérents des clubs et associations sportifs de Lorraine 
+                    de s'inscrire à des formations proposés par la Maison des Ligues (organisme finançant les clubs et associations sportifs
+                    de la region).<br>Le directeur de la M2L ainsi que sa secrétaire administre l'application.<br>
+                    Les principaux cas d'utilisations ont été produit, toutefois des améliorations restent possible.<br>
+                    Ce projet est toujours actuellement en développement.</p>
+                </div>
+
+                <a class="btn btn-primary" target="_blank" href="https://formappe.000webhostapp.com/">
+                  <i class="fa fa-folder-open"></i>
+                  Voir le projet
+                </a>
+                <button class="btn btn-danger" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Fermer
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Bootstrap core JavaScript -->
   <script src="style/jquery/jquery.min.js"></script>
   <script src="style/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
   <script src="style/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
