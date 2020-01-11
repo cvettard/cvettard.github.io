@@ -87,8 +87,8 @@
         </div>
         <div class="divider-custom-line"></div>
       </div>
-
-      <!-- About Section Content -->
+      
+      <!-- Profil Section -->
       <div class="row">
         <div class="col-lg-12 ml-auto">
           <p class="lead">Je m'appelle Clément Vettard, j'ai 20 ans et je suis actuellement en deuxième année de BTS SIO au lycée Ozenne à Toulouse.</p>
@@ -97,59 +97,61 @@
         </div>
       </div>
 
-      <!-- About Section Button -->
-      <div class="text-center mt-4">
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <button class="btn btn-dark" data-toggle="collapse" data-target="#Qualités" aria-expanded="false" aria-controls="Qualités">Qualités</button>
-          <button class="btn btn-primary" data-toggle="collapse" data-target="#Langues" aria-expanded="false" aria-controls="Langues">Langues</button>
-          <button class="btn btn-dark" data-toggle="collapse" data-target="#langagesInformatique" aria-expanded="false" aria-controls="langagesInformatique">Langages Informatique</button>
-          <button class="btn btn-primary" data-toggle="collapse" data-target="#Frameworks" aria-expanded="false" aria-controls="Frameworks">Frameworks</button>
-          <button class="btn btn-dark" data-toggle="collapse" data-target="#Hobbies" aria-expanded="false" aria-controls="Hobbies">Hobbies</button>
-        </div>
-        
-        <div class="collapse" id="Qualités">
+      <div class="accordion" id="accordionMesBoutons">
+        <!-- Profil Section Content -->
+        <div class="text-center mt-4">
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button class="btn btn-dark" data-toggle="collapse" data-target="#Qualités" aria-expanded="false" aria-controls="Qualités">Qualités</button>
+            <button class="btn btn-primary" data-toggle="collapse" data-target="#Langues" aria-expanded="false" aria-controls="Langues">Langues</button>
+            <button class="btn btn-dark" data-toggle="collapse" data-target="#langagesInformatique" aria-expanded="false" aria-controls="langagesInformatique">Langages Informatique</button>
+            <button class="btn btn-primary" data-toggle="collapse" data-target="#Frameworks" aria-expanded="false" aria-controls="Frameworks">Frameworks</button>
+            <button class="btn btn-dark" data-toggle="collapse" data-target="#Hobbies" aria-expanded="false" aria-controls="Hobbies">Hobbies</button>
+          </div>
+          
+          <div class="collapse" id="Qualités" data-parent="#accordionMesBoutons">
+            <br><h3>
+              <span class="badge badge-success">Autonome</span>
+              <span class="badge badge-danger">Persévérant</span>
+              <span class="badge badge-warning">Rigoureux</span>
+              <span class="badge badge-info">Polyvalent</span></h3>
+          </div>
+
+          <div class="collapse" id="Langues" data-parent="#accordionMesBoutons">
+            <br><h3>
+              <span class="badge badge-success">Anglais C1</span>
+              <span class="badge badge-danger">Espagnol B1</span></h3>
+          </div>
+
+          <div class="collapse" id="langagesInformatique" data-parent="#accordionMesBoutons">
+            <br><h3>
+            <span class="badge badge-primary">HTML</span>
+            <span class="badge badge-secondary">CSS</span>
+            <span class="badge badge-success">JavaScript</span>
+            <span class="badge badge-danger">PHP</span>
+            <span class="badge badge-dark">SQL</span>
+            <span class="badge badge-warning">C#</span>
+            <span class="badge badge-info">Java</span></h3>
+          </div>
+
+        <div class="collapse" id="Frameworks" data-parent="#accordionMesBoutons">
           <br><h3>
-            <span class="badge badge-success">Autonome</span>
-            <span class="badge badge-danger">Persévérant</span>
-            <span class="badge badge-warning">Rigoureux</span>
-            <span class="badge badge-info">Polyvalent</span>
+            <span class="badge badge-success">.NET</span>
+            <span class="badge badge-danger">Bootstrap</span></h3>
         </div>
 
-        <div class="collapse" id="Langues">
+        <div class="collapse" id="Hobbies" data-parent="#accordionMesBoutons">
           <br><h3>
-            <span class="badge badge-success">Anglais C1</span>
-            <span class="badge badge-danger">Espagnol B1</span>
+            <span class="badge badge-success">Sport</span>
+            <span class="badge badge-danger">Jeux vidéos</span>
+            <span class="badge badge-secondary">Code</span>
+            <span class="badge badge-warning">Cinéma</span>
+            <span class="badge badge-info">Séries</span></h3>
         </div>
 
-        <div class="collapse" id="langagesInformatique">
-          <br><h3>
-          <span class="badge badge-primary">HTML</span>
-          <span class="badge badge-secondary">CSS</span>
-          <span class="badge badge-success">JavaScript</span>
-          <span class="badge badge-danger">PHP</span>
-          <span class="badge badge-dark">SQL</span>
-          <span class="badge badge-warning">C#</span>
-          <span class="badge badge-info">Java</span></h3>
         </div>
 
-      <div class="collapse" id="Frameworks">
-        <br><h3>
-          <span class="badge badge-success">.NET</span>
-          <span class="badge badge-danger">Bootstrap</span></h3>
       </div>
-
-      <div class="collapse" id="Hobbies">
-        <br><h3>
-          <span class="badge badge-success">Sport</span>
-          <span class="badge badge-danger">Jeux vidéos</span>
-          <span class="badge badge-secondary">Code</span>
-          <span class="badge badge-warning">Cinéma</span>
-          <span class="badge badge-info">Séries</span></h3>
-      </div>
-
-    </div>
   </section>
-
   <!-- Projets Section -->
   <section class="page-section bg-blue text-white portfolio" id="Projets">
     <div class="container">
